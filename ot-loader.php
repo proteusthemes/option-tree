@@ -469,7 +469,7 @@ if ( ! class_exists( 'OT_Loader' ) ) {
       }
       
       /* Adds the Theme Option page to the admin bar */
-      add_action( 'admin_bar_menu', 'ot_register_theme_options_admin_bar_menu', 999 );
+      //add_action( 'admin_bar_menu', 'ot_register_theme_options_admin_bar_menu', 999 );
       
       /* prepares the after save do_action */
       add_action( 'admin_init', 'ot_after_theme_options_save', 1 );
