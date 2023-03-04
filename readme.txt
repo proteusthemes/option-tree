@@ -2,9 +2,9 @@
 Contributors: valendesigns
 Donate link: http://bit.ly/NuXI3T
 Tags: options, theme options, meta boxes
-Requires at least: 3.8
-Tested up to: 4.4
-Stable tag: 2.6.0
+Requires at least: 5.2
+Tested up to: 6.1
+Stable tag: 2.6.1
 License: GPLv3
 
 Theme Options UI Builder for WordPress. A simple way to create & save Theme Options and Meta Boxes for free or premium themes.
@@ -125,6 +125,11 @@ The most likely scenario is your theme already has OptionTree installed in Theme
 3. Documentation
 
 == Changelog ==
+
+
+= 2.6.1 =
+* Use wp_specialchars_decode instead of htmlspecialchars_decode.
+* Remove from admin menu bar
 
 = 2.6.0 =
 * Fix a reflected XSS vulnerability with the `add_list_item` & `add_social_links` Ajax requests.
