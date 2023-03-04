@@ -197,7 +197,7 @@ if ( ! class_exists( 'OT_Settings' ) ) {
                   array(
                     'id'      => esc_attr( $contextual_help['id'] ),
                     'title'   => esc_attr( $contextual_help['title'] ),
-                    'content' => htmlspecialchars_decode( $contextual_help['content'] ),
+                    'content' => wp_specialchars_decode( $contextual_help['content'] ),
                   )
                 );
               }
@@ -205,7 +205,7 @@ if ( ! class_exists( 'OT_Settings' ) ) {
             
             /* set up the help sidebar */
             if ( ! empty( $page['contextual_help']['sidebar'] ) ) {
-              $screen->set_help_sidebar( htmlspecialchars_decode( $page['contextual_help']['sidebar'] ) );
+              $screen->set_help_sidebar( wp_specialchars_decode( $page['contextual_help']['sidebar'] ) );
             }
   
           }

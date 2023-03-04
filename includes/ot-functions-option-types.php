@@ -89,7 +89,7 @@ if ( ! function_exists( 'ot_type_background' ) ) {
     echo '<div class="format-setting type-background ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">'; 
@@ -295,7 +295,7 @@ if ( ! function_exists( 'ot_type_border' ) ) {
     echo '<div class="format-setting type-border ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
 
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
 
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -406,7 +406,7 @@ if ( ! function_exists( 'ot_type_box_shadow' ) ) {
     echo '<div class="format-setting type-box-shadow ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
 
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
 
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -518,7 +518,7 @@ if ( ! function_exists( 'ot_type_category_checkbox' ) ) {
     echo '<div class="format-setting type-category-checkbox type-checkbox ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -571,7 +571,7 @@ if ( ! function_exists( 'ot_type_category_select' ) ) {
     echo '<div class="format-setting type-category-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -627,7 +627,7 @@ if ( ! function_exists( 'ot_type_checkbox' ) ) {
     echo '<div class="format-setting type-checkbox ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';    
@@ -676,7 +676,7 @@ if ( ! function_exists( 'ot_type_colorpicker' ) ) {
     echo '<div class="format-setting type-colorpicker ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">'; 
@@ -750,7 +750,7 @@ if ( ! function_exists( 'ot_type_css' ) ) {
     echo '<div class="format-setting type-css simple ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -794,7 +794,7 @@ if ( ! function_exists( 'ot_type_custom_post_type_checkbox' ) ) {
     echo '<div class="format-setting type-custom-post-type-checkbox type-checkbox ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -851,7 +851,7 @@ if ( ! function_exists( 'ot_type_custom_post_type_select' ) ) {
     echo '<div class="format-setting type-custom-post-type-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -927,7 +927,7 @@ if ( ! function_exists( 'ot_type_date_picker' ) ) {
     echo '<script>jQuery(document).ready(function($) { OT_UI.bind_date_picker("' . esc_attr( $field_id ) . '", "' . esc_attr( $date_format ) . '"); });</script>';      
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -984,7 +984,7 @@ if ( ! function_exists( 'ot_type_date_time_picker' ) ) {
     echo '<script>jQuery(document).ready(function($) { OT_UI.bind_date_time_picker("' . esc_attr( $field_id ) . '", "' . esc_attr( $date_format ) . '"); });</script>';      
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1025,7 +1025,7 @@ if ( ! function_exists( 'ot_type_dimension' ) ) {
     echo '<div class="format-setting type-dimension ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
 
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
 
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1107,7 +1107,7 @@ if ( ! function_exists( 'ot_type_gallery' ) ) {
     echo '<div class="format-setting type-gallery ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
   
       // Description
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
   
       // Format setting inner wrapper
       echo '<div class="format-setting-inner">';
@@ -1202,7 +1202,7 @@ if ( ! function_exists( 'ot_type_google_fonts' ) ) {
     echo '<div class="format-setting type-google-font ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">'; 
@@ -1330,7 +1330,7 @@ if ( ! function_exists( 'ot_type_javascript' ) ) {
     echo '<div class="format-setting type-javascript simple ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1374,7 +1374,7 @@ if ( ! function_exists( 'ot_type_link_color' ) ) {
     echo '<div class="format-setting type-link-color ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
 
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
 
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1460,7 +1460,7 @@ if ( ! function_exists( 'ot_type_list_item' ) ) {
     echo '<div class="format-setting type-list-item ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1533,7 +1533,7 @@ if ( ! function_exists( 'ot_type_measurement' ) ) {
     echo '<div class="format-setting type-measurement ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1593,7 +1593,7 @@ if ( ! function_exists( 'ot_type_numeric_slider' ) ) {
     echo '<div class="format-setting type-numeric-slider ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1640,7 +1640,7 @@ if ( ! function_exists( 'ot_type_on_off' ) ) {
     echo '<div class="format-setting type-radio ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
 
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
 
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1749,7 +1749,7 @@ if ( ! function_exists( 'ot_type_page_checkbox' ) ) {
     echo '<div class="format-setting type-page-checkbox type-checkbox ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1803,7 +1803,7 @@ if ( ! function_exists( 'ot_type_page_select' ) ) {
     echo '<div class="format-setting type-page-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1860,7 +1860,7 @@ if ( ! function_exists( 'ot_type_post_checkbox' ) ) {
     echo '<div class="format-setting type-post-checkbox type-checkbox ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1914,7 +1914,7 @@ if ( ! function_exists( 'ot_type_post_select' ) ) {
     echo '<div class="format-setting type-post-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -1971,7 +1971,7 @@ if ( ! function_exists( 'ot_type_radio' ) ) {
     echo '<div class="format-setting type-radio ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2014,7 +2014,7 @@ if ( ! function_exists( 'ot_type_radio_image' ) ) {
     echo '<div class="format-setting type-radio-image ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2085,7 +2085,7 @@ if ( ! function_exists( 'ot_type_select' ) ) {
     echo '<div class="format-setting type-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* filter choices array */
       $field_choices = apply_filters( 'ot_type_select_choices', $field_choices, $field_id );
@@ -2144,7 +2144,7 @@ if ( ! function_exists( 'ot_type_sidebar_select' ) ) {
     echo '<div class="format-setting type-sidebar-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2209,7 +2209,7 @@ if ( ! function_exists( 'ot_type_slider' ) ) {
     echo '<div class="format-setting type-slider ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2374,7 +2374,7 @@ if ( ! function_exists( 'ot_type_social_links' ) ) {
     echo '<div class="format-setting type-social-list-item ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2446,7 +2446,7 @@ if ( ! function_exists( 'ot_type_spacing' ) ) {
     echo '<div class="format-setting type-spacing ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
 
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
 
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2577,7 +2577,7 @@ if ( ! function_exists( 'ot_type_tag_checkbox' ) ) {
     echo '<div class="format-setting type-tag-checkbox type-checkbox ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2630,7 +2630,7 @@ if ( ! function_exists( 'ot_type_tag_select' ) ) {
     echo '<div class="format-setting type-tag-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2686,7 +2686,7 @@ if ( ! function_exists( 'ot_type_taxonomy_checkbox' ) ) {
     echo '<div class="format-setting type-taxonomy-checkbox type-checkbox ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2742,7 +2742,7 @@ if ( ! function_exists( 'ot_type_taxonomy_select' ) ) {
     echo '<div class="format-setting type-tag-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2801,7 +2801,7 @@ if ( ! function_exists( 'ot_type_text' ) ) {
     echo '<div class="format-setting type-text ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2842,7 +2842,7 @@ if ( ! function_exists( 'ot_type_textarea' ) ) {
     echo '<div class="format-setting type-textarea ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . ' fill-area">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2895,7 +2895,7 @@ if ( ! function_exists( 'ot_type_textarea_simple' ) ) {
     echo '<div class="format-setting type-textarea simple ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
@@ -2940,7 +2940,7 @@ if ( ! function_exists( 'ot_type_textblock' ) ) {
     echo '<div class="format-setting type-textblock wide-desc">';
       
       /* description */
-      echo '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>';
+      echo '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>';
       
     echo '</div>';
     
@@ -2970,7 +2970,7 @@ if ( ! function_exists( 'ot_type_textblock_titled' ) ) {
     echo '<div class="format-setting type-textblock titled wide-desc">';
       
       /* description */
-      echo '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>';
+      echo '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>';
       
     echo '</div>';
     
@@ -3003,7 +3003,7 @@ if ( ! function_exists( 'ot_type_typography' ) ) {
     echo '<div class="format-setting type-typography ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">'; 
@@ -3187,7 +3187,7 @@ if ( ! function_exists( 'ot_type_upload' ) ) {
     echo '<div class="format-setting type-upload ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
-      echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+      echo $has_desc ? '<div class="description">' . wp_specialchars_decode( $field_desc ) . '</div>' : '';
       
       /* format setting inner wrapper */
       echo '<div class="format-setting-inner">';
