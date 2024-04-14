@@ -3,21 +3,19 @@ Contributors: valendesigns
 Donate link: http://bit.ly/NuXI3T
 Tags: options, theme options, meta boxes
 Requires at least: 5.2
-Tested up to: 6.1
-Stable tag: 2.6.1
+Tested up to: 6.4
+Stable tag: 2.6.2
 License: GPLv3
 
 Theme Options UI Builder for WordPress. A simple way to create & save Theme Options and Meta Boxes for free or premium themes.
 
 == Description ==
 
-OptionTree attempts to bridge the gap between WordPress developers, designers and end-users by creating fully responsive option panels and meta boxes with an ease unlike any other plugin. OptionTree has many advanced features with well placed hooks and filters to adjust every aspect of the user experience. 
+OptionTree attempts to bridge the gap between WordPress developers, designers and end-users by creating fully responsive option panels and meta boxes with an ease unlike any other plugin. OptionTree has many advanced features with well placed hooks and filters to adjust every aspect of the user experience.
 
-Build your Theme Options panel locally with an easy to use drag & drop interface and then export a functioning `theme-options.php` file for production use that is i18n translation ready, with your custom text domain automatically inserted. 
+Build your Theme Options panel locally with an easy to use drag & drop interface and then export a functioning `theme-options.php` file for production use that is i18n translation ready, with your custom text domain automatically inserted.
 
-And, in just a few simple lines of code, save settings to the database with a unique array ID so none of your Theme Options conflict with other themes that use OptionTree. 
-
-Also, OptionTree now takes full advantage of the new color schemes introduced in WordPress 3.8, it looks and feels built-in.
+And, in just a few simple lines of code, save settings to the database with a unique array ID so none of your Theme Options conflict with other themes that use OptionTree.
 
 #### Theme Integration
 If you're like me, you want to know how everything works. Download and activate the [OptionTree Theme](https://github.com/valendesigns/option-tree-theme) and see first hand how to integrate OptionTree into your own project. I'll walk you through installing OptionTree and you'll get a chance to see all the various options and filters first hand and in the wild.
@@ -126,6 +124,8 @@ The most likely scenario is your theme already has OptionTree installed in Theme
 
 == Changelog ==
 
+= 2.6.2 =
+* Remove safe_mode INI directive
 
 = 2.6.1 =
 * Use wp_specialchars_decode instead of htmlspecialchars_decode.
