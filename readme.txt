@@ -125,6 +125,9 @@ The most likely scenario is your theme already has OptionTree installed in Theme
 == Changelog ==
 
 = 2.6.2 =
+* Fix version number
+
+= 2.6.2 =
 * Remove safe_mode INI directive
 
 = 2.6.1 =
